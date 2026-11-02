@@ -50,10 +50,10 @@
 # even_number(1,10)         
 
 
-def fun(n):
-    while n>0:
-        print(n%10)
-        n=n//10
+# def fun(n):
+#     while n>0:
+#         print(n%10)
+#         n=n//10
 
-print(fun(4321))
+# print(fun(4321))
       
