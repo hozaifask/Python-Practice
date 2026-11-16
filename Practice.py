@@ -103,3 +103,38 @@
 # del Employee_1.company
 # print(Employee_1.company)
 # print(Employee_2.company)
+
+
+
+# class car:
+#     wheels=4
+#     def __init__(self,brand,color):
+#         self.brand=brand
+#         self.color=color
+
+# Car_1=car("Toyota","White")    
+# Car_2=car("Honda","Black")   
+
+# car.wheels=6
+# print(Car_1.brand,Car_1.color,Car_1.wheels)
+# print(Car_2.brand,Car_2.color,Car_2.wheels)
+
+
+
+
+
+class BankAccount:
+    bank_name="SBI"
+    def __init__(self,Account_holder,balance):
+        self.Account_holder=Account_holder
+        self.balance=balance
+
+Account_1=BankAccount("Ali",10_000)
+Account_2=BankAccount("Rahul",20_000)
+
+BankAccount.bank_name="HDFC"
+Account_1.bank_name="ICICI"
+
+print(Account_1.Account_holder,Account_1.balance,Account_1.bank_name)
+
+print(Account_2.Account_holder,Account_2.balance,Account_2.bank_name)
