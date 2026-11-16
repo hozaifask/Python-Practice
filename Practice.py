@@ -60,6 +60,8 @@
 
 
 
+
+
 #oops
 
 # class product:
@@ -74,3 +76,30 @@
 # p2=product("laptop",40_000)
 
 # p1.get_info()
+
+
+
+
+#OOPS
+# class Employee:
+#     company="tcs"
+#     def __init__(self,name,salary):
+#         self.name=name
+#         self.salary=salary
+
+# Employee_1=Employee("Ali",25_000)
+# Employee_2=Employee("Rahul",30_000)
+
+# # print(Employee_1.name)
+# # print(Employee_1.salary)
+# # print(Employee.company)
+
+# # print(Employee_2.name)
+# # print(Employee_2.salary)
+# # print(Employee.company)
+
+# Employee.company="Infosys"
+# Employee_1.company="Wipro"
+# del Employee_1.company
+# print(Employee_1.company)
+# print(Employee_2.company)
