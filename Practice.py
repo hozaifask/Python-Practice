@@ -62,22 +62,6 @@
 
 
 
-#oops
-
-# class product:
-#     def __init__(self,name,price):
-#         self.name=name
-#         self.price=price
-
-#     def get_info(self):
-#         print(f"price of {self.name}is Rs {self.price}")  
-
-# p1=product("phone",10_000)
-# p2=product("laptop",40_000)
-
-# p1.get_info()
-
-
 
 
 #OOPS
@@ -121,20 +105,82 @@
 
 
 
+#self
+# class Mobile:
+#     def __init__(self,brand,price):
+#         self.brand=brand
+#         self.price=price
+        
+#     def show_details(self):
+#         print(f"{self.brand} {self.price}")
+
+#     def apply_discount(self,discount):
+#         self.price=self.price-discount    
+
+# c1=Mobile("Samsung",20_000)
+# c2=Mobile("Iphone",70_000)   
+
+# c1.show_details()
+# c2.show_details()
+# c1.apply_discount(1000)
+# c1.show_details()
 
 
-class BankAccount:
-    bank_name="SBI"
-    def __init__(self,Account_holder,balance):
-        self.Account_holder=Account_holder
-        self.balance=balance
 
-Account_1=BankAccount("Ali",10_000)
-Account_2=BankAccount("Rahul",20_000)
+#class method
 
-BankAccount.bank_name="HDFC"
-Account_1.bank_name="ICICI"
+# class mobile:
+#     company="ABC mobiles"
 
-print(Account_1.Account_holder,Account_1.balance,Account_1.bank_name)
+#     @classmethod
+#     def change_company(cls,new_name):
+#         cls.company=new_name
 
-print(Account_2.Account_holder,Account_2.balance,Account_2.bank_name)
+# m1=mobile()
+# m2=mobile()
+
+# mobile.change_company("DS Mobile")
+
+# print(m1.company)
+# print(m2.company)
+
+
+
+#oops  product store example
+
+# class product:
+#     count=0
+#     def __init__(self,name,price):
+#         self.name=name
+#         self.price=price
+#         product.count+=1
+
+#     def get_info(self):
+#         print(f"price of {self.name}is Rs {self.price}") 
+
+#     @classmethod
+#     def product_count(cls):
+#         print(f"the count  is {cls.count}")    
+
+#     @staticmethod
+#     def get     
+
+# p1=product("phone",10_000)
+# p2=product("laptop",40_000)
+
+# # p1.get_info()
+# product.product_count()
+
+
+# Inheritance
+class Employee:
+    start_time="10 am"
+    end_time="6 pm"
+
+class teacher(Employee):
+    def __init__(self,subject):
+        self.subject=subject
+
+t1=teacher("Maths")
+
+print(t1.subject,t1.start_time,t1.end_time)
