@@ -202,20 +202,39 @@
 
 
 #abstarction
-from abc import ABC,abstractmethod
+# from abc import ABC,abstractmethod
 
-class Animal(ABC):
-    @abstractmethod
-    def make_sound(self):
-        pass
+# class Animal(ABC):
+#     @abstractmethod
+#     def make_sound(self):
+#         pass
 
-class Lion(Animal):
-    def make_sound(self):
-        print("Roar!")
+# class Lion(Animal):
+#     def make_sound(self):
+#         print("Roar!")
 
-class Cow(Animal):
-    def make_sound(self):
-        print("meow")
+# class Cow(Animal):
+#     def make_sound(self):
+#         print("meow")
 
-lion=Lion()
-lion.make_sound()               
+# lion=Lion()
+# lion.make_sound()
+
+
+
+
+#Polymorphism
+
+
+#funation overriding
+class Employee:
+    def get_designation(self):
+        print("designation=Employer")
+
+class Teacher(Employee):
+    def get_designation(self):
+        print("designation=teacher")  
+
+t1=Teacher()  
+t1.get_designation()
+
