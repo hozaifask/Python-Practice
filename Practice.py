@@ -227,14 +227,14 @@
 
 
 #funation overriding
-class Employee:
-    def get_designation(self):
-        print("designation=Employer")
+# class Employee:
+#     def get_designation(self):
+#         print("designation=Employer")
 
-class Teacher(Employee):
-    def get_designation(self):
-        print("designation=teacher")  
+# class Teacher(Employee):
+#     def get_designation(self):
+#         print("designation=teacher")  
 
-t1=Teacher()  
-t1.get_designation()
+# t1=Teacher()  
+# t1.get_designation()
 
