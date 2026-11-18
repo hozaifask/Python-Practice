@@ -172,15 +172,50 @@
 # product.product_count()
 
 
-# Inheritance
-class Employee:
-    start_time="10 am"
-    end_time="6 pm"
+# # Inheritance
+# class Employee:
+#     start_time="10 am"
+#     end_time="6 pm"
 
-class teacher(Employee):
-    def __init__(self,subject):
-        self.subject=subject
+# class teacher(Employee):
+#     def __init__(self,subject):
+#         self.subject=subject
 
-t1=teacher("Maths")
+#     def change_time(self,new_end_time):#for change time
+#         self.end_time=new_end_time
+   
+# class admin(Employee):
+#     def  __init__(self,manager):
+#         self.manager=manager
 
-print(t1.subject,t1.start_time,t1.end_time)
+# admin_1=admin("rahul")
+
+      
+# t1=teacher("Maths")
+# # t1.change_time("5 pm")
+
+# # print(t1.subject,t1.start_time,t1.end_time)
+
+
+# print(admin_1.manager,admin_1.start_time,admin_1.end_time)
+# print(t1.end_time)
+
+
+#abstarction
+from abc import ABC,abstractmethod
+
+class Animal(ABC):
+    @abstractmethod
+    def make_sound(self):
+        pass
+
+class Lion(Animal):
+    def make_sound(self):
+        print("Roar!")
+
+class Cow(Animal):
+    def make_sound(self):
+        print("meow")
+
+lion=Lion()
+lion.make_sound()               
