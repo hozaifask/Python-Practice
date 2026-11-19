@@ -238,3 +238,8 @@
 # t1=Teacher()  
 # t1.get_designation()
 
+
+#file handling
+
+f=open("Superman.txt","r")
+print(f.read(5))
