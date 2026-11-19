@@ -241,5 +241,11 @@
 
 #file handling
 
-f=open("Superman.txt","r")
-print(f.read(5))
+
+#read file
+# f=open("Superman.txt","r")
+# print(f.read(5))
+
+#write file
+# f=open("Superman.txt","a")
+# f.write("\n superman is super Hero")
