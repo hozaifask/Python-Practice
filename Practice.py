@@ -249,3 +249,7 @@
 #write file
 # f=open("Superman.txt","a")
 # f.write("\n superman is super Hero")
+
+#with keyword
+with open("Superman.txt","r") as f:
+    print(f.read())
