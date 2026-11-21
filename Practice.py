@@ -251,5 +251,9 @@
 # f.write("\n superman is super Hero")
 
 #with keyword
-with open("Superman.txt","r") as f:
-    print(f.read())
+# with open("Superman.txt","r") as f:
+#     print(f.read())
+
+#delete file
+# import os
+# os.remove("check.txt")
