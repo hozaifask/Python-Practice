@@ -257,3 +257,15 @@
 #delete file
 # import os
 # os.remove("check.txt")
+
+# #Exception handling
+
+# try:
+#     x=int(input("Enter the numner : "))
+#     Ans=10/x
+# except ZeroDivisionError:
+#     print("Canot dide by zero")
+# except ValueError:
+#     print("Enter the valid value")
+# else:
+#  print(f"thye answer is{Ans}  ")
