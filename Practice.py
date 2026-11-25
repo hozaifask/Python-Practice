@@ -291,3 +291,15 @@
 # num=[-1,-3,6,-5,0,5,6]
 # num=[0 if val < 0 else val for val in num ]
 # print(num)
+
+
+
+
+#json
+import json
+
+with open("data.json","r") as f:
+    # print(f.read())
+    py_obj=json.load(f)
+    print(py_obj)
+

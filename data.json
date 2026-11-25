@@ -1,0 +1,9 @@
+{
+    "name":"Hozaifa",
+    "isteacher":true,
+    "adress":{
+        "city":"mumbai",
+        "Cuntry":"india"
+    },
+    "subject":["python","AI/ML"]
+}
