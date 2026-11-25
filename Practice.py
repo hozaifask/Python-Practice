@@ -274,3 +274,20 @@
 # finally:
 #    print("the final program end")
 
+#list Comprehension
+
+#using for loop
+# sq=[]
+# for i in range(6):
+#     sq.append(i*i)
+
+# print(sq)    
+
+# # using list complrehension
+# square=[i*i for i in range(6) if i%2==0]
+# print(square)
+
+
+# num=[-1,-3,6,-5,0,5,6]
+# num=[0 if val < 0 else val for val in num ]
+# print(num)
